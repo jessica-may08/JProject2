@@ -1,2 +1,0 @@
-# JProject2
- mobiletodesktop
