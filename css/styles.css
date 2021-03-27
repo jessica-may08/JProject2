@@ -108,6 +108,10 @@ footer {
 	font-weight: bold;
 }
 
+.nav2 {
+	display: none;
+}
+
 footer a {
 	text-transform: uppercase;
 }
@@ -191,6 +195,17 @@ footer a {
 		margin: 0 auto;
 		padding-bottom: 2rem;
 	}
+
+	#top {
+			display: none;
+		}
+
+		.nav2 {
+			display: block;
+		}
+		footer li {
+				display: inline-block;
+			}
 }
 
 
@@ -220,7 +235,6 @@ footer a {
 	}
 
 	.bio {
-		width: 90%;
 		margin: 0 auto;
 		padding-left: 0;
 		padding-right: 0;
@@ -228,6 +242,7 @@ footer a {
 
 	bio p	{
 				max-width: 40%;
+				padding-left: 0;
 				margin-top: 6rem;
 	}
 
