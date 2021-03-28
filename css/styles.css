@@ -69,7 +69,6 @@ nav a {
 
 .bio img {
 	max-width: 100%;
-	align: center;
 	padding-left: 1rem;
 	padding-right: 1rem;
 }
@@ -156,17 +155,14 @@ footer a {
 	}
 
 	.bio img {
-		max-width: 100%%;
 		margin: auto;
-	padding: 2rem 1rem 2rem 1rem;
-
+		padding: 2rem 1rem 2rem 1rem;
 	}
 
 	.image-container		{
 										text-align: right;
 										max-width: 450px;
 										margin-top: 3rem;
-										bottom-padding: 3rem;
 	}
 
 	#portfolio {
@@ -292,3 +288,7 @@ nav2 li {
 					display: none;
 }
 }
+
+
+/*Fix button issue------*/
+<p><a href="#">Back to Top</a></p>
