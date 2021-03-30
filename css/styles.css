@@ -107,7 +107,7 @@ footer {
 	font-weight: bold;
 }
 
-.nav2 {
+nav2 {
 	display: none;
 }
 
@@ -192,16 +192,17 @@ footer a {
 		padding-bottom: 2rem;
 	}
 
-	#top {
-			display: none;
-		}
-
-		.nav2 {
+		ul nav2 {
 			display: block;
 		}
-		footer li {
-				display: inline-block;
-			}
+		footer a	{
+				display: none;
+		}
+		footer nav	{
+				display: block;
+		}
+
+
 }
 
 
@@ -262,8 +263,9 @@ body	{
 		padding-left: .5rem;
 	}
 
-.nav2	{
+nav2	{
 	text-align: right;
+	display: block;
 	flex: 1;    /* same as flex-grow: 1; */
 	}
 
@@ -284,9 +286,7 @@ nav2 li {
 }
 
 /*help with the button and alignment of nav bar*/
-#top 	{
-					display: none;
-}
+
 }
 
 
