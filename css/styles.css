@@ -265,20 +265,20 @@ body	{
 		padding-left: .5rem;
 	}
 
-nav2	{
+.nav2	{
 	text-align: right;
-	display: block;
+	display: flex;
 	flex: 1;    /* same as flex-grow: 1; */
 	}
 
 
-nav2 ul {
+.nav2 ul {
 	display: flex;
 	padding-left: 0;
 	list-style: none;
 }
 
-nav2 li {
+.nav2 li {
 	margin-bottom: 6px;
 	padding: 12px 0 12px 0;
 	background: #fff;
@@ -287,10 +287,4 @@ nav2 li {
 	font-weight: bold;
 }
 
-/*help with the button and alignment of nav bar*/
-
 }
-
-
-/*Fix button issue------*/
-<p><a href="#">Back to Top</a></p>
