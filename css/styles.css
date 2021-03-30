@@ -107,7 +107,7 @@ footer {
 	font-weight: bold;
 }
 
-nav2 {
+.nav2 {
 	display: none;
 }
 
@@ -191,15 +191,17 @@ footer a {
 		margin: 0 auto;
 		padding-bottom: 2rem;
 	}
-
-		ul nav2 {
+footer	{
+	display: flex;
+}
+		.nav2 {
 			display: block;
 		}
-		footer a	{
-				display: none;
+		.nav2 li	{
+			display: inline-block;
 		}
-		footer nav	{
-				display: block;
+		.top	{
+				display: none;
 		}
 
 
